@@ -10,7 +10,7 @@ export default Vue.extend({
   name: 'IndexPage',
   data() {
     return {
-      sprite: {},
+      sprite: {} as SpriteClass,
     }
   },
   mounted() {
