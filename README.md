@@ -1,4 +1,4 @@
-# sample-pixi-sprite
+# sample-pixi-sprite-animation
 
 ## Build Setup
 
