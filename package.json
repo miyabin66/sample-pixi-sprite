@@ -11,7 +11,8 @@
     "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
-    "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix"
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
+    "sprite": "spritesheet-js assets/*.png -p static"
   },
   "dependencies": {
     "core-js": "^3.19.3",
@@ -41,6 +42,7 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
+    "spritesheet-js": "^1.2.6",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.1.0",
